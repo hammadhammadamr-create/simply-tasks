@@ -1,0 +1,25 @@
+body , section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+}
+
+section{
+    gap: 10px;
+    padding: 10px;
+}
+
+section img{
+    width: 15%;
+    border-radius: 20px;
+    border: none;
+    transition: all 1s ease-in-out;
+}
+
+section img:hover{
+    width: 20%;
+}

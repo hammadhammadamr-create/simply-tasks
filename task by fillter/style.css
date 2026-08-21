@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 30%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.country {
+    position: relative;
+}
+
+.country h2,.country h3 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+.country h3 {
+    margin-top: 20px;
+}
+
+.country h2 {
+    margin-top: 40px;
+}
+
+.country img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.49);
+    filter: blur(15px);
+    transition: 0.3s;
+}
+
+.country img:hover {
+    filter: none;
+}
