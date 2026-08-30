@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+}
+
+main{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.card{
+    background-color: white;
+    height: 90%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px 60px 0px 60px;
+    overflow: hidden;
+}
+
+.cards{
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 0px 60px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.top1 , .first-btn{
+    background-color: #1E90FF;
+}
+
+.top2 , .second-btn{
+    background-color: #9931CC;
+}
+
+.top3 , .third-btn{
+    background-color: #DB143B;
+}
+
+.title1, .title2 ,.title3{
+    margin:30px  0px;
+    font-size: 1.7rem;
+}
+
+.title1{
+    color: #1E90FF;
+}
+
+.title2{
+    color: #9931CC;
+}
+
+.title3{
+    color: #DB143B;
+}
+
+.content{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* gap: 10px; */
+}
+
+.content p{
+    color: #919191;
+    border-top: 2px dotted #919191;
+    padding:  10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content :last-child{
+    border-bottom: 2px dotted #919191;
+}
+
+button{
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 0px 40px 0px 40px;
+    width: 50%;
+    color: white;
+    border: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}

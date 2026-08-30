@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:aquamarine;
+}
+
+#body{
+    background-color: black;
+    border-radius: 50% 50% 30% 30%;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px ;
+}
+
+#body section{
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    border-radius: 50% 50% 40% 40% / 30% 40%;
+}
+
+#body section div{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 50px;
+    left: 70px;
+    margin-left: 20px;
+}
+
+#body :nth-child(1){
+    transform: rotate(-17deg);
+    left: 60px;
+}
+
+#body :nth-child(2){
+    transform: rotate(17deg);
+    right: 60px; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.arms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+}
+
+.arm1 , .arm2{
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    background: #000000;
+    transform: rotate(145deg);
+}
+
+.arm2{
+    transform: rotate(-145deg);
+}
+
+#feet{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#feet div{
+    background-color: yellow;
+    width: 150px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.nose{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 0% 80% 0 0;
+    background-color: rgb(255, 242, 0);
+    transform: rotate(-45deg);
+}

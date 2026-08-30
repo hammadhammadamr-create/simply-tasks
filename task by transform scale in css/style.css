@@ -6,6 +6,7 @@ body , section{
 
 body{
     height: 100vh;
+    background-color: rgb(32, 32, 32);
 }
 
 section{
@@ -14,12 +15,15 @@ section{
 }
 
 section img{
+    height: 500px;
     width: 15%;
     border-radius: 20px;
     border: none;
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    object-fit:cover;
 }
 
 section img:hover{
     width: 20%;
+    height: 500px;
 }

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main section{
+    width: 300px;
+    box-shadow: 0 0 15px #00000074;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 180px;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon{
+    height: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    height: 180px;
+    width: 300px;
+}
+p{
+    margin-top: 10px;
+}
+
+#github .icon{
+    background: #1abc9c;
+}
+
+#twitter .icon{
+    background: #3498db;
+}
+
+#linkedIn .icon{
+    background-color: #e74c3c;
+}
+
+main section:hover{
+    height: 360px;
+}

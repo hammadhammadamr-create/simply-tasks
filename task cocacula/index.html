@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button class="coca_btn" id="btn">
+        Coca-Cola
+    </button>
+
+    <section id="hero">
+
+        <div class="hero_content">
+            <h1>Taste The Feeling</h1>
+
+            <p>
+                Refresh yourself with the original taste of Coca Cola.
+            </p>
+
+            <button>Order Now</button>
+        </div>
+
+        <div class="hero_image">
+            <img src="https://i.pinimg.com/736x/ee/a4/e3/eea4e32700bb701a03fc214952d04229.jpg" alt="Coca Cola">
+        </div>
+
+    </section>
+
+    <script>
+        let hero = document.getElementById(`hero`);
+        let btn = document.getElementById(`btn`);
+        btn.addEventListener("click", ()=>{
+            hero.style.cssText=`
+                padding: 20px;
+                background-color: #e60000;
+                display: flex ;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border-radius: 15px;
+                box-shadow: 0 0 105px red;
+            `;
+        })
+    </script>
+</body>
+</html>
