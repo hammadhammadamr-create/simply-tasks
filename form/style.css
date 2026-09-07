@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87cbe3;
+    font-family: Arial, sans-serif;
+}
+
+.reservation {
+    width: 360px;
+    height: 395px;
+    background-color: white;
+    margin: 42px auto 0;
+    padding: 22px 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    color: #f5a400;
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+.description {
+    font-size: 0.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input,textarea {
+    width: 284px;
+    border: 1px solid #777;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 27px;
+}
+
+textarea {
+    height: 103px;
+}
+
+button {
+    width: 284px;
+    height: 25px;
+    border: 2px solid #333;
+    background-color: #87cbe3;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.circle-left,.circle-right {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-color: #ffad00;
+    border-radius: 50%;
+    bottom: -18px;
+    z-index: 1;
+}
+
+.circle-left {
+    left: -13px;
+}
+
+.circle-right {
+    right: -13px;
+}

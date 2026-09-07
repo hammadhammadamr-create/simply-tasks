@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #aebff7;
+}
+
+main , .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.container{
+    width: 70%;
+}
+/* head_dear */
+.head_dear{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: start;
+}
+
+.head{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CF825D;
+    height: 260px;
+    width: 260px;
+}
+
+.eyes{
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 0;
+    height: 50px;
+    width: 100px;
+}
+
+.eye{
+    border-radius: 50%;
+    border:transparent transparent #000 #000;
+    border: 7px solid;
+    border-color: black black transparent transparent;
+    transform: rotate(-45deg);
+    height: 20px;
+    width: 20px;
+}
+
+.mouse{
+    height: 35%;
+    width: 25%;
+    background-color: #f7e6ae;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    border-radius: 50%;
+}
+
+.noise{
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.ear{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #CF825D;
+    z-index: 3;
+    padding: 15px;
+}
+
+
+
+.ear div{
+    background-color: #f2d880;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* scoop */
+
+.scoop{
+    position: absolute;
+    width: 20%;
+    border-radius: 5% 5% 30% 30%;
+    background-color: #f7e6ae;
+    height: 10%;
+    top: 44%;
+    z-index: 2;
+}
+
+/* cone */
+
+.cone{
+    width: 15%;
+    height: 150px;
+    border-radius: 15% 15% 30% 30%;
+    background-color: #f7e6ae;
+    position: absolute;
+    top: 50%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    place-items: center;
+    overflow: hidden;
+    gap: 10px;
+    z-index: 2;
+}
+
+.cone div{
+    background-color: #f2d880;
+    width: 40px;
+    height: 40px;
+}
