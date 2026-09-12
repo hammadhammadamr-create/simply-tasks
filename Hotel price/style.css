@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header{
+    background-color: #b8860b;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: #fdf6ec;
+}
+
+.typeRoom{
+    padding: 10px;
+}
+
+.rooms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    place-items: center;
+
+    margin-top: 20px;
+}
+
+.room{
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.room h3{
+    color: #b8860b;
+    margin-bottom: 10px;
+}
+
+.yourRoom{
+    background-color: #ffffff;
+    padding: 30px 10px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.selectRoom{
+    margin: 25px 0;
+}
+
+.selectRoom label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.selectRoom div label{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+.numberNight label{
+    display: block;
+}
+
+.numberNight input{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+#btn{
+    background-color: #8b5e3c;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    margin: 0 20px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+#btn:hover{
+    background-color: #5d3d25;
+}
+
+#total{
+    color: #2e7d32;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}

@@ -4,34 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Quiz App</title>
 </head>
-
 <body>
+    <div class="parent">
+        <h1 style="text-align: center; margin-bottom: 30px;">Quize App</h1>
 
-    <div class="reservation">
-        <h1>Quick Reservation</h1>
+        <section id="parent"></section>
 
-        <p class="description">Contact us today, and get reply with 24 hours!</p>
-
-        <form>
-            <input type="text" placeholder="Your Name">
-
-            <input type="email" placeholder="Your Email Address">
-
-            <input type="tel" placeholder="Your Phone Number">
-
-            <input type="url" placeholder="Your Web Site Starts With Https://">
-
-            <textarea placeholder="Type Your Message Here.."></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
-
-        <div class="circle-left"></div>
-        <div class="circle-right"></div>
-
+        <div id="btns">
+            <button id="back">Back</button>
+            <button id="submit">Submit</button>
+            <button id="next">Next</button>
+        </div>
     </div>
 
+    <div id="score"></div>
+      
+    <script src="script.js"></script>
 </body>
 </html>

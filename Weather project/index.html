@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather project</title>
+</head>
+<body>
+    <main>
+
+        <div class="title" style="text-align: center;">
+            <h1>Weather Explorer</h1>
+            <p>Stay updated with the latest weather conditions</p>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Calabar" id="inputCity">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <h3 id="message" style="color: rgb(186, 186, 186); text-align: center; margin: 10px;"></h3>
+
+        <div id="city">
+            <h1 id="icon">☀️</h1>
+
+            <div>
+                <h1 style="margin-bottom: 20px;">Calabar</h1>
+
+                <h3 style="text-align: center;">Temperature: <span id="temperature"></span> <br> <h4 id="condition"></h4> </h3>
+            </div>
+        </div>
+
+        <div class="days">
+            <div>
+                <h1>Saturday</h1>
+                <h1 class="icon">☀️</h1>
+                <h2 class="temperature">34°C</h2>
+            </div>
+
+            <div>
+                <h1>Sunday</h1>
+                <h1 class="icon">☀️</h1>
+                <h2 class="temperature">31°C</h2>
+            </div>
+
+            <div>
+                <h1>Monday</h1>
+                <h1 class="icon">☀️</h1>
+                <h2 class="temperature">31°C</h2>
+            </div>
+
+            <div>
+                <h1>Tuesday</h1>
+                <h1 class="icon">☁️</h1>
+                <h2 class="temperature">31°C</h2>
+            </div>
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>

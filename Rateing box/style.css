@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #DAA7AC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box{
+    background-color: #221B1B;
+    width: 350px;
+    height: 250px;
+
+    border-radius:15px ;
+    box-shadow: inset 0 0 15px #B29493;
+    
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+#stars{
+    width: 100%;
+    padding: 0 60px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+}
+
+i{
+    color: #ccc;
+    transform: scale(3.3);
+}
